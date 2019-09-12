@@ -1,0 +1,154 @@
+
+.navbar {
+	background-color: #000;
+	background-color:  rgba(0, 0, 0, 0);
+}
+
+.header {
+	height: 1000px;
+	background: url("../img/bg.png") no-repeat center;
+	background-size: cover;
+	color: #314a5b;
+	text-align: left;
+}
+
+.header-padding {
+	padding-left: 0;
+}
+
+.navbar-brand {
+	background-color: #fa5c65;
+	border-radius: 5px;
+	padding: 2rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link .active {
+	color: #31545B;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: #31545B;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	color: #FA5C65;
+}
+
+.head-title {
+	font-size: 3.5rem;
+	color: #314a5b;
+}
+
+.red-dote {
+	color: #fa5c65;
+	font-weight: bold;
+}
+
+.free-but {
+	background-color: #fa5c65;
+	/*padding-left: 55px;*/
+}
+
+.just-up {
+	padding-top: 200px;
+	padding-bottom: 10px;
+}
+
+.card-title {
+	font-weight: bold;
+}
+
+#work {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: #314a5b;
+
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+#portfolio {
+	color: #314a5b;
+	padding-bottom: 60px;
+}
+
+#team {
+	color: #314a5b;
+}
+
+.team-right {
+	padding-top: 60px;
+	padding-right: 80px;
+}
+
+.networks-all svg {
+	color: #314A5B;
+}
+
+.networks-all svg:hover {
+	color: #FA5C65;
+}
+
+.foot {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+
+	.team-right {
+		padding: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.header {
+		height: auto;
+	}
+}
+
+@media (max-width: 500px) {
+	.foot {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0;
+	}
+
+	.copy {
+		margin: 20px 0;
+	}
+
+	.head-title {
+		font-size: 25px;
+	}
+
+	.portfolio-img {
+		width: 100%;
+		height: auto;
+	}
+
+	.just-up {
+    	padding-top: 70px;
+	}
+}
+
+.card-body-fix {
+	height: 100%;
+	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+
+.card-body-fix .btn {
+	padding-left: 0;
+} 
+
+.card-text-fix {
+	flex: 1;
+}
+
